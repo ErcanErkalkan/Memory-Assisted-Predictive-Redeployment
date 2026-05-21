@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "PRR-NSGA-II experiment code"
+message: "If you use this software, please cite the archived Zenodo release and the associated manuscript when available."
+type: software
+authors:
+  - family-names: Erkalkan
+    given-names: Ercan
+    affiliation: "Marmara University, Vocational School of Technical Sciences, Department of Computer Technologies"
+abstract: "Experiment code for selection-filtered predictive redeployment with bounded memory support in dynamic multi-objective evolutionary optimization."
+repository-code: "https://github.com/ErcanErkalkan/Memory-Assisted-Predictive-Redeployment"
+license: MIT
+keywords:
+  - dynamic multi-objective optimization
+  - evolutionary algorithms
+  - NSGA-II
+  - predictive redeployment
+  - memory archive
+  - rapid recovery
+  - reproducibility
