@@ -1,0 +1,32 @@
+# LaTeX build byproducts
+*.aux
+*.log
+*.fdb_latexmk
+*.fls
+*.spl
+*.synctex.gz
+*.out
+*.toc
+*.lof
+*.lot
+*.blg
+*.bcf
+*.run.xml
+
+# Python/runtime byproducts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Local editor/OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+*~
