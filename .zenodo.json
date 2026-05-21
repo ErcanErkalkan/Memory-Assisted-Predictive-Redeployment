@@ -1,5 +1,6 @@
 {
   "title": "PRR-NSGA-II experiment code for dynamic multi-objective evolutionary optimization",
+  "version": "1.0.0",
   "upload_type": "software",
   "description": "Experiment code for selection-filtered predictive redeployment with bounded memory support in dynamic multi-objective evolutionary optimization. The archived GitHub release contains only the experiment scripts and minimal software metadata; manuscript files, generated figures, generated tables, and raw result files are intentionally excluded.",
   "creators": [

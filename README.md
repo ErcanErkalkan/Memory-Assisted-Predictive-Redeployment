@@ -4,6 +4,10 @@ This repository contains only the experiment code for the PRR-NSGA-II study.
 
 Manuscript files are intentionally omitted. This branch does not include the paper PDF, LaTeX sources, bibliography, generated figures, generated tables, raw result CSV files, cover letter, highlights, or submission documents.
 
+## DOI
+
+Archived experiment-code DOI: https://doi.org/10.5281/zenodo.20327988
+
 ## Included Code
 
 - `_supp_work/src/dynamic_prr_experiment.py`: main dynamic multi-objective experiment implementation.
@@ -17,7 +21,7 @@ Manuscript files are intentionally omitted. This branch does not include the pap
 
 ## Zenodo
 
-The repository includes `.zenodo.json` for Zenodo release metadata and `CITATION.cff` for GitHub citation metadata. After enabling this GitHub repository in Zenodo, create a GitHub release from this branch to archive the experiment code and mint a DOI.
+The repository includes `.zenodo.json` for Zenodo release metadata and `CITATION.cff` for GitHub citation metadata.
 
 ## Dependencies
 

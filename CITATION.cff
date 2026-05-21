@@ -2,6 +2,10 @@ cff-version: 1.2.0
 title: "PRR-NSGA-II experiment code"
 message: "If you use this software, please cite the archived Zenodo release and the associated manuscript when available."
 type: software
+doi: 10.5281/zenodo.20327988
+url: "https://doi.org/10.5281/zenodo.20327988"
+version: "1.0.0"
+date-released: 2026-05-21
 authors:
   - family-names: Erkalkan
     given-names: Ercan
