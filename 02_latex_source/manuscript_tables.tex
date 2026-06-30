@@ -1,0 +1,88 @@
+\begin{table}[htbp]
+\centering
+\caption{Overall mean $\pm$ standard deviation across 20 scenarios and 30 runs. Compact ARVLP, KTR, and ABR labels denote the inspired response-family implementations summarized in Table~\ref{tab:baseline-transparency} and detailed in the supplementary baseline-implementation file.}
+\label{tab:overall}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccccc}
+\toprule
+Algorithm & HV $\uparrow$ & IGD $\downarrow$ & Stability $\uparrow$ & Drift $\downarrow$ & QDR $\uparrow$ \\
+\midrule
+NSGA-II & 0.301 $\pm$ 0.290 & 0.885 $\pm$ 0.554 & 0.959 $\pm$ 0.019 & 0.196 $\pm$ 0.057 & 0.261 $\pm$ 0.266 \\
+DNSGA-II & 0.364 $\pm$ 0.274 & 0.527 $\pm$ 0.372 & 0.959 $\pm$ 0.018 & 0.236 $\pm$ 0.106 & 0.304 $\pm$ 0.249 \\
+MNSGA-II & 0.304 $\pm$ 0.289 & 0.863 $\pm$ 0.538 & 0.958 $\pm$ 0.020 & \textbf{0.193 $\pm$ 0.058} & 0.264 $\pm$ 0.265 \\
+PPS-NSGA-II & 0.497 $\pm$ 0.229 & 0.277 $\pm$ 0.191 & 0.960 $\pm$ 0.021 & 0.196 $\pm$ 0.076 & 0.424 $\pm$ 0.213 \\
+DMOEA/D & 0.412 $\pm$ 0.224 & 0.415 $\pm$ 0.186 & 0.960 $\pm$ 0.016 & 0.213 $\pm$ 0.089 & 0.347 $\pm$ 0.205 \\
+ARVLP-NSGA-II & 0.495 $\pm$ 0.217 & 0.267 $\pm$ 0.167 & 0.961 $\pm$ 0.018 & 0.224 $\pm$ 0.109 & 0.413 $\pm$ 0.203 \\
+KTR-NSGA-II & 0.460 $\pm$ 0.237 & 0.322 $\pm$ 0.180 & 0.959 $\pm$ 0.017 & 0.212 $\pm$ 0.086 & 0.389 $\pm$ 0.221 \\
+ABR-NSGA-II & \textbf{0.519 $\pm$ 0.205} & \textbf{0.228 $\pm$ 0.133} & \textbf{0.963 $\pm$ 0.016} & 0.225 $\pm$ 0.111 & \textbf{0.432 $\pm$ 0.195} \\
+RDMOEA-NSGA-II & 0.337 $\pm$ 0.281 & 0.674 $\pm$ 0.507 & 0.960 $\pm$ 0.019 & 0.203 $\pm$ 0.087 & 0.289 $\pm$ 0.259 \\
+PRR-NSGA-II & 0.512 $\pm$ 0.209 & 0.244 $\pm$ 0.154 & 0.963 $\pm$ 0.017 & 0.227 $\pm$ 0.111 & 0.426 $\pm$ 0.198 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Scenario-level average ranks across scenario blocks. Lower rank is better. Compact ARVLP, KTR, and ABR labels denote the inspired response-family implementations summarized in Table~\ref{tab:baseline-transparency} and detailed in the supplementary baseline-implementation file.}
+\label{tab:average-ranks}
+\begin{tabular}{lccccc}
+\toprule
+Algorithm & HV & IGD & Stability & Drift & QDR \\
+\midrule
+NSGA-II & 9.20 & 8.75 & 5.55 & 4.45 & 9.00 \\
+DNSGA-II & 6.60 & 6.35 & 6.30 & 7.90 & 6.65 \\
+MNSGA-II & 8.65 & 8.55 & 6.25 & 3.65 & 8.50 \\
+PPS-NSGA-II & 3.30 & 3.70 & 5.95 & 3.35 & 3.20 \\
+DMOEA/D & 7.05 & 6.95 & 5.85 & 6.20 & 6.95 \\
+ARVLP-NSGA-II & 3.45 & 4.05 & 5.70 & 6.55 & 3.90 \\
+KTR-NSGA-II & 4.20 & 4.45 & 5.75 & 5.75 & 4.50 \\
+ABR-NSGA-II & 2.45 & 2.25 & 3.95 & 6.45 & 2.45 \\
+RDMOEA-NSGA-II & 7.80 & 7.30 & 5.90 & 3.90 & 7.10 \\
+PRR-NSGA-II & 2.30 & 2.65 & 3.80 & 6.80 & 2.75 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Scenario-level win/tie/loss counts for PRR-NSGA-II against baselines. Compact ARVLP, KTR, and ABR labels denote the inspired response-family implementations summarized in Table~\ref{tab:baseline-transparency} and detailed in the supplementary baseline-implementation file.}
+\label{tab:wtl}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcccc}
+\toprule
+Comparison & HV & IGD & Stability & QDR \\
+\midrule
+vs NSGA-II & 20/0/0 & 19/0/1 & 12/0/8 & 19/0/1 \\
+vs DNSGA-II & 20/0/0 & 19/0/1 & 14/0/6 & 20/0/0 \\
+vs MNSGA-II & 20/0/0 & 19/0/1 & 14/0/6 & 18/0/2 \\
+vs PPS-NSGA-II & 12/0/8 & 12/0/8 & 14/0/6 & 9/0/11 \\
+vs DMOEA/D & 20/0/0 & 20/0/0 & 14/0/6 & 20/0/0 \\
+vs ARVLP-NSGA-II & 16/0/4 & 16/0/4 & 16/0/4 & 16/0/4 \\
+vs KTR-NSGA-II & 17/0/3 & 16/0/4 & 14/0/6 & 16/0/4 \\
+vs ABR-NSGA-II & 9/0/11 & 8/0/12 & 12/0/8 & 8/0/12 \\
+vs RDMOEA-NSGA-II & 20/0/0 & 18/0/2 & 14/0/6 & 19/0/1 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{All-scenario component-removal ablation and direct-insertion test across 20 scenarios and 30 runs under the three-generation-per-state manuscript protocol; PRR-complete is the main PRR-NSGA-II raw-run set renamed for ablation consistency.}
+\label{tab:ablation}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccccc}
+\toprule
+Variant & HV $\uparrow$ & IGD $\downarrow$ & Stability $\uparrow$ & Drift $\downarrow$ & QDR $\uparrow$ \\
+\midrule
+PRR-complete & 0.512 $\pm$ 0.209 & 0.244 $\pm$ 0.154 & 0.963 $\pm$ 0.017 & 0.227 $\pm$ 0.111 & 0.426 $\pm$ 0.198 \\
+PRR-no-prediction & 0.378 $\pm$ 0.270 & 0.486 $\pm$ 0.343 & 0.957 $\pm$ 0.018 & 0.231 $\pm$ 0.105 & 0.316 $\pm$ 0.248 \\
+PRR-no-memory & 0.569 $\pm$ 0.188 & 0.171 $\pm$ 0.107 & 0.965 $\pm$ 0.018 & 0.214 $\pm$ 0.122 & 0.477 $\pm$ 0.183 \\
+PRR-no-diversity & 0.531 $\pm$ 0.212 & 0.225 $\pm$ 0.148 & 0.963 $\pm$ 0.019 & 0.200 $\pm$ 0.096 & 0.452 $\pm$ 0.203 \\
+PRR-direct-insertion & 0.519 $\pm$ 0.204 & 0.233 $\pm$ 0.144 & 0.962 $\pm$ 0.017 & 0.222 $\pm$ 0.117 & 0.434 $\pm$ 0.195 \\
+PRR-no-elite & 0.577 $\pm$ 0.184 & 0.164 $\pm$ 0.107 & 0.967 $\pm$ 0.017 & 0.241 $\pm$ 0.128 & 0.475 $\pm$ 0.183 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

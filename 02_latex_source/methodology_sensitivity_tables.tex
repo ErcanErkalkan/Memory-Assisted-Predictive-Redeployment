@@ -1,0 +1,49 @@
+\begin{table}[htbp]
+\centering
+\caption{Targeted 8-scenario, 12-run PRR source-quota sensitivity audit. The table reports mean HV, IGD, and QDR over 12 independent runs per representative scenario while varying the elite, memory, prediction, diversity, and recent-memory split parameters under the same selection-filtered admission rule. Lower IGD is better; higher HV and QDR are better.}
+\label{tab:quota-sensitivity}
+\scriptsize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrrrrrr}
+\toprule
+Variant & $q_e$ & $q_m$ & $q_p$ & $q_d$ & $r_m$ & HV & IGD & QDR \\
+\midrule
+Default & 0.35 & 0.30 & 0.25 & 0.10 & 0.55 & 0.561 & 0.239 & 0.472 \\
+Low elite & 0.20 & 0.30 & 0.35 & 0.15 & 0.55 & 0.587 & 0.206 & 0.494 \\
+High elite & 0.50 & 0.22 & 0.20 & 0.08 & 0.55 & 0.547 & 0.265 & 0.460 \\
+Low memory & 0.40 & 0.15 & 0.35 & 0.10 & 0.55 & 0.574 & 0.224 & 0.484 \\
+High memory & 0.25 & 0.45 & 0.20 & 0.10 & 0.55 & 0.553 & 0.252 & 0.465 \\
+Low prediction & 0.45 & 0.35 & 0.10 & 0.10 & 0.55 & 0.513 & 0.317 & 0.434 \\
+High prediction & 0.25 & 0.25 & 0.40 & 0.10 & 0.55 & 0.579 & 0.217 & 0.489 \\
+Low diversity & 0.38 & 0.32 & 0.28 & 0.02 & 0.55 & 0.545 & 0.279 & 0.461 \\
+High diversity & 0.25 & 0.25 & 0.25 & 0.25 & 0.55 & 0.578 & 0.216 & 0.485 \\
+Recent-heavy memory & 0.35 & 0.30 & 0.25 & 0.10 & 0.80 & 0.556 & 0.249 & 0.468 \\
+Transfer-heavy memory & 0.35 & 0.30 & 0.25 & 0.10 & 0.25 & 0.564 & 0.241 & 0.475 \\
+\bottomrule
+\end{tabular}%
+}
+\vspace{0.5ex}
+\footnotesize{Targeted diagnostic audit: 8 representative scenarios $\times$ 12 independent runs per scenario/variant. $r_m$ is the recent-memory share inside the memory/transfer component; $1-r_m$ is the historical-transfer share.}
+\end{table}
+\begin{table}[htbp]
+\centering
+\caption{Synthetic prediction-noise stress test. PRR admits predicted candidates only if they survive current-state selection, whereas direct insertion reserves 25 predicted slots. Contaminated predictions are retained predicted candidates worse than the $N$th non-predicted alternative in the same pool.}
+\label{tab:prediction-noise-stress}
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{rrrrrr}
+\toprule
+Noise & PRR accepted pred. & Direct forced pred. & PRR contaminated & Direct contaminated & Direct priority loss \\
+\midrule
+0.00 & 25.16 & 25.00 & 0.00 & 0.81 & 0.278 \\
+0.03 & 8.81 & 25.00 & 0.00 & 10.96 & 0.298 \\
+0.06 & 2.46 & 25.00 & 0.00 & 21.80 & 0.323 \\
+0.10 & 0.52 & 25.00 & 0.00 & 24.43 & 0.335 \\
+0.15 & 0.14 & 25.00 & 0.00 & 24.84 & 0.339 \\
+0.20 & 0.06 & 25.00 & 0.00 & 24.93 & 0.341 \\
+0.30 & 0.02 & 25.00 & 0.00 & 24.98 & 0.341 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

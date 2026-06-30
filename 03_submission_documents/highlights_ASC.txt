@@ -1,0 +1,7 @@
+Highlights
+
+- PRR frames prediction as candidate generation rather than reserved population insertion.
+- Predicted, memory, transfer, elite, and diversity candidates compete under current-state selection before admission.
+- The method is positioned as a conservative and interpretable evolutionary soft-computing mechanism for rapid recovery under variable prediction reliability.
+- Ablation explicitly reports no-memory, no-elite, no-prediction, no-diversity, and direct-insertion boundary cases.
+- Scenario-level ranks, evaluation-count audit, direct recovery diagnostics, component-risk ablation, quota sensitivity, and prediction-noise stress tests are reported.

@@ -1,0 +1,370 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{branke2002}
+J.~Branke, Evolutionary Optimization in Dynamic Environments, Kluwer Academic
+  Publishers, Boston, 2002.
+
+\bibitem{farina2004}
+M.~Farina, K.~Deb, P.~Amato, Dynamic multiobjective optimization problems: Test
+  cases, approximations, and applications, IEEE Transactions on Evolutionary
+  Computation 8~(5) (2004) 425--442.
+\newblock \href {https://doi.org/10.1109/TEVC.2004.831456}
+  {\path{doi:10.1109/TEVC.2004.831456}}.
+
+\bibitem{nguyen2012}
+T.~T. Nguyen, S.~Yang, J.~Branke, Evolutionary dynamic optimization: A survey
+  of the state of the art, Swarm and Evolutionary Computation 6 (2012) 1--24.
+\newblock \href {https://doi.org/10.1016/j.swevo.2012.05.001}
+  {\path{doi:10.1016/j.swevo.2012.05.001}}.
+
+\bibitem{peng2024ab}
+H.~Peng, J.~Xiong, C.~Pi, X.~Zhou, Z.~Wu, A dynamic multi-objective
+  optimization evolutionary algorithm with adaptive boosting, Swarm and
+  Evolutionary Computation 89 (2024) 101621.
+\newblock \href {https://doi.org/10.1016/j.swevo.2024.101621}
+  {\path{doi:10.1016/j.swevo.2024.101621}}.
+
+\bibitem{hu2025resource}
+D.~Hu, J.~He, A dynamic multi-objective optimization approach for computing
+  resource allocation in industrial model repository, Swarm and Evolutionary
+  Computation 99 (2025) 102219.
+\newblock \href {https://doi.org/10.1016/j.swevo.2025.102219}
+  {\path{doi:10.1016/j.swevo.2025.102219}}.
+
+\bibitem{deb2002}
+K.~Deb, A.~Pratap, S.~Agarwal, T.~Meyarivan, A fast and elitist multiobjective
+  genetic algorithm: Nsga-ii, IEEE Transactions on Evolutionary Computation
+  6~(2) (2002) 182--197.
+\newblock \href {https://doi.org/10.1109/4235.996017}
+  {\path{doi:10.1109/4235.996017}}.
+
+\bibitem{yang2008}
+S.~Yang, Genetic algorithms with memory- and elitism-based immigrants in
+  dynamic environments, Evolutionary Computation 16~(3) (2008) 385--416.
+\newblock \href {https://doi.org/10.1162/evco.2008.16.3.385}
+  {\path{doi:10.1162/evco.2008.16.3.385}}.
+
+\bibitem{zhou2014}
+A.~Zhou, Y.~Jin, Q.~Zhang, A population prediction strategy for evolutionary
+  dynamic multiobjective optimization, IEEE Transactions on Cybernetics 44~(1)
+  (2014) 40--53.
+\newblock \href {https://doi.org/10.1109/TCYB.2013.2245892}
+  {\path{doi:10.1109/TCYB.2013.2245892}}.
+
+\bibitem{arms2022}
+L.~Chen, H.~Wang, D.~Pan, H.~Wang, W.~Gan, D.~Wang, T.~Zhu, Dynamic
+  multiobjective evolutionary algorithm with adaptive response mechanism
+  selection strategy, Knowledge-Based Systems 246 (2022) 108691.
+\newblock \href {https://doi.org/10.1016/j.knosys.2022.108691}
+  {\path{doi:10.1016/j.knosys.2022.108691}}.
+
+\bibitem{mstl2022}
+Y.~Ye, Q.~Lin, L.~Ma, K.-C. Wong, M.~Gong, C.~A. Coello~Coello, Multiple source
+  transfer learning for dynamic multiobjective optimization, Information
+  Sciences 607 (2022) 739--757.
+\newblock \href {https://doi.org/10.1016/j.ins.2022.05.114}
+  {\path{doi:10.1016/j.ins.2022.05.114}}.
+
+\bibitem{zheng2023rvcp}
+J.~Zheng, Q.~Wu, J.~Zou, S.~Yang, Y.~Hu, A dynamic multi-objective evolutionary
+  algorithm using adaptive reference vector and linear prediction, Swarm and
+  Evolutionary Computation 78 (2023) 101281.
+\newblock \href {https://doi.org/10.1016/j.swevo.2023.101281}
+  {\path{doi:10.1016/j.swevo.2023.101281}}.
+
+\bibitem{pivot2023hppds}
+J.~Zheng, F.~Zhou, J.~Zou, S.~Yang, Y.~Hu, A dynamic multi-objective
+  optimization based on a hybrid of pivot points prediction and diversity
+  strategies, Swarm and Evolutionary Computation 78 (2023) 101284.
+\newblock \href {https://doi.org/10.1016/j.swevo.2023.101284}
+  {\path{doi:10.1016/j.swevo.2023.101284}}.
+
+\bibitem{wang2024dmpa}
+M.~Wang, B.~Li, G.~Dai, Z.~Song, X.~Chen, Q.~Bao, L.~Peng, A dynamic
+  multi-objective optimization algorithm with a dual mechanism based on
+  prediction and archive, Swarm and Evolutionary Computation 90 (2024) 101693.
+\newblock \href {https://doi.org/10.1016/j.swevo.2024.101693}
+  {\path{doi:10.1016/j.swevo.2024.101693}}.
+
+\bibitem{ensemble2024}
+Z.~Wang, L.~Xue, Y.~Guo, M.~Han, S.~Liang, Solving dynamic multi-objective
+  optimization problems via quantifying intensity of environment changes and
+  ensemble learning-based prediction strategies, Applied Soft Computing 154
+  (2024) 111317.
+\newblock \href {https://doi.org/10.1016/j.asoc.2024.111317}
+  {\path{doi:10.1016/j.asoc.2024.111317}}.
+
+\bibitem{li2025mffrl}
+Q.~Li, L.~Wang, Y.~Ma, A dynamic multi-objective optimization evolutionary
+  algorithm based on multi-modal feature fusion and entropy-driven
+  reinforcement learning, Swarm and Evolutionary Computation 99 (2025) 102212.
+\newblock \href {https://doi.org/10.1016/j.swevo.2025.102212}
+  {\path{doi:10.1016/j.swevo.2025.102212}}.
+
+\bibitem{ou2026hcips}
+J.~Ou, Y.~Li, Y.~Hu, J.~Peng, J.~Zheng, J.~Zou, S.~Yang, Dynamic
+  multi-objective optimization algorithm via historical collaborative strategy
+  and interval prediction strategy, Swarm and Evolutionary Computation 101
+  (2026) 102281.
+\newblock \href {https://doi.org/10.1016/j.swevo.2026.102281}
+  {\path{doi:10.1016/j.swevo.2026.102281}}.
+
+\bibitem{miettinen1999}
+K.~Miettinen, Nonlinear Multiobjective Optimization, Kluwer Academic
+  Publishers, Boston, 1999.
+
+\bibitem{deb2001}
+K.~Deb, Multi-Objective Optimization Using Evolutionary Algorithms, Wiley,
+  Chichester, 2001.
+
+\bibitem{coello2007}
+C.~A. Coello~Coello, G.~B. Lamont, D.~A. Van~Veldhuizen, Evolutionary
+  Algorithms for Solving Multi-Objective Problems, Springer, New York, 2007.
+
+\bibitem{huband2006}
+S.~Huband, P.~Hingston, L.~Barone, L.~While, A review of multiobjective test
+  problems and a scalable test problem toolkit, IEEE Transactions on
+  Evolutionary Computation 10~(5) (2006) 477--506.
+\newblock \href {https://doi.org/10.1109/TEVC.2005.861417}
+  {\path{doi:10.1109/TEVC.2005.861417}}.
+
+\bibitem{li2009}
+H.~Li, Q.~Zhang, Multiobjective optimization problems with complicated pareto
+  sets, moea/d and nsga-ii, IEEE Transactions on Evolutionary Computation
+  13~(2) (2009) 284--302.
+\newblock \href {https://doi.org/10.1109/TEVC.2008.925798}
+  {\path{doi:10.1109/TEVC.2008.925798}}.
+
+\bibitem{helbig2014}
+M.~Helbig, A.~P. Engelbrecht, Benchmarks for dynamic multi-objective
+  optimisation algorithms, ACM Computing Surveys 46~(3) (2014) 1--39.
+\newblock \href {https://doi.org/10.1145/2517649} {\path{doi:10.1145/2517649}}.
+
+\bibitem{benchmark2022xiang}
+X.~Xiang, Y.~Tian, R.~Cheng, X.~Zhang, S.~Yang, Y.~Jin, A benchmark generator
+  for online dynamic single-objective and multi-objective optimization
+  problems, Information Sciences 613 (2022) 591--608.
+\newblock \href {https://doi.org/10.1016/j.ins.2022.09.049}
+  {\path{doi:10.1016/j.ins.2022.09.049}}.
+
+\bibitem{constrained2023dvc}
+Y.~Guo, M.~Huang, G.~Chen, D.~Gong, J.~Liang, Z.~Yu, A dynamic constrained
+  multiobjective evolutionary algorithm based on decision variable
+  classification, Swarm and Evolutionary Computation 83 (2023) 101420.
+\newblock \href {https://doi.org/10.1016/j.swevo.2023.101420}
+  {\path{doi:10.1016/j.swevo.2023.101420}}.
+
+\bibitem{asoc2024acrm}
+Z.~Aliniya, S.~H. Khasteh, Dynamic constrained multi-objective optimization
+  based on adaptive combinatorial response mechanism, Applied Soft Computing
+  155 (2024) 111398.
+\newblock \href {https://doi.org/10.1016/j.asoc.2024.111398}
+  {\path{doi:10.1016/j.asoc.2024.111398}}.
+
+\bibitem{constrained2026dualpred}
+Z.~Yang, L.~Deng, C.~Li, Y.~Qin, L.~Zhang, A dynamic constrained
+  multi-objective evolutionary algorithm with a dual prediction mechanism,
+  Expert Systems with Applications 297 (2026) 129304.
+\newblock \href {https://doi.org/10.1016/j.eswa.2025.129304}
+  {\path{doi:10.1016/j.eswa.2025.129304}}.
+
+\bibitem{fgsp2025}
+L.~Dong, Q.~Wang, Q.~Liu, J.~Ji, K.-C. Wong, Q.~Lin, Feasibility-guided search
+  and prediction for dynamic constrained multiobjective evolutionary
+  optimization, Swarm and Evolutionary Computation 99 (2025) 102157.
+\newblock \href {https://doi.org/10.1016/j.swevo.2025.102157}
+  {\path{doi:10.1016/j.swevo.2025.102157}}.
+
+\bibitem{zhang2007}
+Q.~Zhang, H.~Li, Moea/d: A multiobjective evolutionary algorithm based on
+  decomposition, IEEE Transactions on Evolutionary Computation 11~(6) (2007)
+  712--731.
+\newblock \href {https://doi.org/10.1109/TEVC.2007.892759}
+  {\path{doi:10.1109/TEVC.2007.892759}}.
+
+\bibitem{trivedi2017}
+A.~Trivedi, D.~Srinivasan, K.~Sanyal, A.~Ghosh, A survey of multiobjective
+  evolutionary algorithms based on decomposition, IEEE Transactions on
+  Evolutionary Computation (2016) 1--1\href
+  {https://doi.org/10.1109/TEVC.2016.2608507}
+  {\path{doi:10.1109/TEVC.2016.2608507}}.
+
+\bibitem{domain2022}
+G.~Chen, Y.~Guo, M.~Huang, D.~Gong, Z.~Yu, A domain adaptation learning
+  strategy for dynamic multiobjective optimization, Information Sciences 606
+  (2022) 328--349.
+\newblock \href {https://doi.org/10.1016/j.ins.2022.05.050}
+  {\path{doi:10.1016/j.ins.2022.05.050}}.
+
+\bibitem{wu2023kt}
+L.~Wu, D.~Wu, T.~Zhao, X.~Cai, L.~Xie, Dynamic multi-objective evolutionary
+  algorithm based on knowledge transfer, Information Sciences 636 (2023)
+  118886.
+\newblock \href {https://doi.org/10.1016/j.ins.2023.03.111}
+  {\path{doi:10.1016/j.ins.2023.03.111}}.
+
+\bibitem{li2024nitl}
+H.~Li, Z.~Wang, C.~Lan, P.~Wu, N.~Zeng, A novel dynamic multiobjective
+  optimization algorithm with non-inductive transfer learning based on
+  multi-strategy adaptive selection, IEEE Transactions on Neural Networks and
+  Learning Systems 35~(11) (2024) 16533--16547.
+\newblock \href {https://doi.org/10.1109/TNNLS.2023.3295461}
+  {\path{doi:10.1109/TNNLS.2023.3295461}}.
+
+\bibitem{song2024mst}
+W.~Song, J.~Yu, Dynamic multiobjective optimization based on multi-environment
+  knowledge selection and transfer, AI 5~(4) (2024) 2187--2202.
+\newblock \href {https://doi.org/10.3390/ai5040107}
+  {\path{doi:10.3390/ai5040107}}.
+
+\bibitem{osbitp2025}
+S.~Zhao, T.~Zhang, L.~Zhang, J.~Song, Os-bitp: Objective sorting-informed
+  bidomain-information transfer prediction for dynamic multiobjective
+  optimization, Swarm and Evolutionary Computation 95 (2025) 101918.
+\newblock \href {https://doi.org/10.1016/j.swevo.2025.101918}
+  {\path{doi:10.1016/j.swevo.2025.101918}}.
+
+\bibitem{grey2020}
+C.~Wang, G.~G. Yen, M.~Jiang, A grey prediction-based evolutionary algorithm
+  for dynamic multiobjective optimization, Swarm and Evolutionary Computation
+  56 (2020) 100695.
+\newblock \href {https://doi.org/10.1016/j.swevo.2020.100695}
+  {\path{doi:10.1016/j.swevo.2020.100695}}.
+
+\bibitem{objective2021}
+E.~Guerrero-Pena, A.~F. Araujo, Dynamic multi-objective evolutionary algorithm
+  with objective space prediction strategy, Applied Soft Computing 107 (2021)
+  107258.
+\newblock \href {https://doi.org/10.1016/j.asoc.2021.107258}
+  {\path{doi:10.1016/j.asoc.2021.107258}}.
+
+\bibitem{hybrid2022mutation}
+Y.~Chen, J.~Zou, Y.~Liu, S.~Yang, J.~Zheng, W.~Huang, Combining a hybrid
+  prediction strategy and a mutation strategy for dynamic multiobjective
+  optimization, Swarm and Evolutionary Computation 70 (2022) 101041.
+\newblock \href {https://doi.org/10.1016/j.swevo.2022.101041}
+  {\path{doi:10.1016/j.swevo.2022.101041}}.
+
+\bibitem{classification2022}
+J.~Li, R.~Liu, R.~Wang, Handling dynamic multiobjective optimization problems
+  with variable environmental change via classification prediction and dynamic
+  mutation, Information Sciences 608 (2022) 970--995.
+\newblock \href {https://doi.org/10.1016/j.ins.2022.06.095}
+  {\path{doi:10.1016/j.ins.2022.06.095}}.
+
+\bibitem{particle2022pspas}
+P.~Wang, Y.~Ma, M.~Wang, A dynamic multi-objective optimization evolutionary
+  algorithm based on particle swarm prediction strategy and prediction
+  adjustment strategy, Swarm and Evolutionary Computation 75 (2022) 101164.
+\newblock \href {https://doi.org/10.1016/j.swevo.2022.101164}
+  {\path{doi:10.1016/j.swevo.2022.101164}}.
+
+\bibitem{manifold2023mcp}
+L.~Yan, W.~Qi, A.~Qin, S.~Yang, D.~Gong, B.~Qu, J.~Liang, Manifold
+  clustering-based prediction for dynamic multiobjective optimization, Swarm
+  and Evolutionary Computation 77 (2023) 101254.
+\newblock \href {https://doi.org/10.1016/j.swevo.2023.101254}
+  {\path{doi:10.1016/j.swevo.2023.101254}}.
+
+\bibitem{hu2025dlcp}
+Y.~Hu, Y.~Li, J.~Ou, J.~Peng, J.~Li, J.~Zheng, Dynamic multi-objective
+  evolutionary algorithm based on dual-layer collaborative prediction under
+  multiple perspective, Swarm and Evolutionary Computation 94 (2025) 101876.
+\newblock \href {https://doi.org/10.1016/j.swevo.2025.101876}
+  {\path{doi:10.1016/j.swevo.2025.101876}}.
+
+\bibitem{ruan2026feature}
+G.~Ruan, H.~Tong, J.~Liu, X.~Yao, Computational studies on dynamic
+  multi-objective optimization with feature representation transfer, IEEE
+  Transactions on Evolutionary Computation (2026) 1--1\href
+  {https://doi.org/10.1109/TEVC.2026.3676021}
+  {\path{doi:10.1109/TEVC.2026.3676021}}.
+
+\bibitem{expensive2022kriging}
+Z.~Liu, H.~Wang, A data augmentation based kriging-assisted reference vector
+  guided evolutionary algorithm for expensive dynamic multi-objective
+  optimization, Swarm and Evolutionary Computation 75 (2022) 101173.
+\newblock \href {https://doi.org/10.1016/j.swevo.2022.101173}
+  {\path{doi:10.1016/j.swevo.2022.101173}}.
+
+\bibitem{expensive2025knee}
+X.~Xue, Z.~Cheng, X.~Chen, L.~Feng, A relation learning-assisted algorithm with
+  knee point transfer for expensive dynamic multi-objective optimization, Swarm
+  and Evolutionary Computation 99 (2025) 102196.
+\newblock \href {https://doi.org/10.1016/j.swevo.2025.102196}
+  {\path{doi:10.1016/j.swevo.2025.102196}}.
+
+\bibitem{robust2025pstl}
+Z.~Wu, M.~Liu, An improved dynamic multi-objective robust evolutionary
+  algorithm and application based on pstl, Swarm and Evolutionary Computation
+  99 (2025) 102195.
+\newblock \href {https://doi.org/10.1016/j.swevo.2025.102195}
+  {\path{doi:10.1016/j.swevo.2025.102195}}.
+
+\bibitem{rsas2024}
+X.~Li, A.~Cao, K.~Wang, Effective response strategies based on adaptive
+  selection for dynamic multi-objective evolutionary optimization, Applied Soft
+  Computing 162 (2024) 111756.
+\newblock \href {https://doi.org/10.1016/j.asoc.2024.111756}
+  {\path{doi:10.1016/j.asoc.2024.111756}}.
+
+\bibitem{hwang1981}
+C.~L. Hwang, K.~Yoon, Multiple Attribute Decision Making: Methods and
+  Applications, Springer, Berlin, 1981.
+
+\bibitem{roy1996}
+B.~Roy, Multicriteria Methodology for Decision Aiding, Kluwer Academic
+  Publishers, Dordrecht, 1996.
+
+\bibitem{greco2016}
+S.~Greco, M.~Ehrgott, J.~R. Figueira (Eds.), Multiple Criteria Decision
+  Analysis: State of the Art Surveys, Springer, New York, 2016.
+\newblock \href {https://doi.org/10.1007/978-1-4939-3094-4}
+  {\path{doi:10.1007/978-1-4939-3094-4}}.
+
+\bibitem{zitzler1999}
+E.~Zitzler, L.~Thiele, Multiobjective evolutionary algorithms: a comparative
+  case study and the strength pareto approach, IEEE Transactions on
+  Evolutionary Computation 3~(4) (1999) 257--271.
+\newblock \href {https://doi.org/10.1109/4235.797969}
+  {\path{doi:10.1109/4235.797969}}.
+
+\bibitem{fonseca2006}
+C.~Fonseca, L.~Paquete, M.~Lopez-Ibanez, An improved dimension-sweep algorithm
+  for the hypervolume indicator, in: 2006 IEEE International Conference on
+  Evolutionary Computation, 2006, pp. 1157--1163.
+\newblock \href {https://doi.org/10.1109/CEC.2006.1688440}
+  {\path{doi:10.1109/CEC.2006.1688440}}.
+
+\bibitem{derrac2011}
+J.~Derrac, S.~Garcia, D.~Molina, F.~Herrera, A practical tutorial on the use of
+  nonparametric statistical tests as a methodology for comparing evolutionary
+  and swarm intelligence algorithms, Swarm and Evolutionary Computation 1~(1)
+  (2011) 3--18.
+\newblock \href {https://doi.org/10.1016/j.swevo.2011.02.002}
+  {\path{doi:10.1016/j.swevo.2011.02.002}}.
+
+\bibitem{sawilowsky2009}
+S.~S. Sawilowsky, New effect size rules of thumb, Journal of Modern Applied
+  Statistical Methods 8~(2) (2009) 597--599.
+\newblock \href {https://doi.org/10.22237/jmasm/1257035100}
+  {\path{doi:10.22237/jmasm/1257035100}}.
+
+\bibitem{goh2009}
+C.-K. Goh, K.~C. Tan, A competitive-cooperative coevolutionary paradigm for
+  dynamic multiobjective optimization, IEEE Transactions on Evolutionary
+  Computation 13~(1) (2009) 103--127.
+\newblock \href {https://doi.org/10.1109/TEVC.2008.920671}
+  {\path{doi:10.1109/TEVC.2008.920671}}.
+
+\bibitem{jiang2018cec}
+S.~Jiang, S.~Yang, X.~Yao, K.~C. Tan, M.~Kaiser, N.~Krasnogor, Benchmark
+  problems for cec'2018 competition on dynamic multiobjective optimisation,
+  Tech. rep., Newcastle University, Newcastle upon Tyne, UK (December 2017).
+
+\end{thebibliography}

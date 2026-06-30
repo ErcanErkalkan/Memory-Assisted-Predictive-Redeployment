@@ -1,0 +1,22 @@
+\begin{table}[htbp]
+\centering
+\caption{Compact dimensional scalability diagnostic on six representative scenarios. The diagnostic is not a full high-dimensional rerun; it repeats the rapid-response protocol for five common-seed runs at $D=10$ and $D=30$ using four representative methods. HV and QDR are maximized, IGD is minimized, and ranks are scenario-level averages over the six diagnostic scenarios.}
+\label{tab:scalability-diagnostic}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{llrrrrr}
+\toprule
+$D$ & Method & HV & IGD & QDR & HV rank & IGD rank \\
+\midrule
+10 & NSGA-II & 0.218 & 1.116 & 0.181 & 4.00 & 4.00 \\
+10 & PPS-NSGA-II & 0.446 & 0.307 & 0.379 & 2.17 & 2.33 \\
+10 & ABR-inspired & 0.495 & 0.189 & 0.410 & 2.50 & 2.33 \\
+10 & PRR-NSGA-II & \textbf{0.526} & \textbf{0.157} & \textbf{0.443} & \textbf{1.33} & \textbf{1.33} \\
+\midrule
+30 & NSGA-II & 0.147 & 5.011 & 0.117 & 4.00 & 4.00 \\
+30 & PPS-NSGA-II & 0.184 & 1.609 & 0.132 & 2.17 & 2.33 \\
+30 & ABR-inspired & 0.159 & 1.660 & 0.117 & 2.83 & 2.67 \\
+30 & PRR-NSGA-II & \textbf{0.220} & \textbf{1.060} & \textbf{0.158} & \textbf{1.00} & \textbf{1.00} \\
+\bottomrule
+\end{tabular}
+\end{table}

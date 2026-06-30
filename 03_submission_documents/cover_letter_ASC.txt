@@ -1,0 +1,18 @@
+Dear Editor,
+
+Please consider our manuscript entitled "Selection-Filtered Predictive Redeployment for Rapid Recovery in Dynamic Multi-Objective Evolutionary Optimization" for publication in Applied Soft Computing.
+
+The manuscript proposes PRR-NSGA-II, a selection-filtered predictive redeployment strategy with bounded memory support for dynamic multi-objective evolutionary optimization. The method combines temporal movement estimation, bounded memory, historical transfer sampling, diversity immigrants, elite preservation, and selection-filtered environmental selection. Prediction, memory, transfer, elite, and diversity are treated as candidate-generation sources whose outputs must be re-evaluated under the current environment before admission. This conservative admission design is intended to preserve the benefits of prediction when movement estimates are informative while reducing the risk of forced insertion when prediction or historical transfer becomes misleading.
+
+The manuscript fits the scope of Applied Soft Computing because it contributes to evolutionary computing and hybrid soft-computing response design for uncertain dynamic environments, and it evaluates the method in multi-objective optimization, decision-support-oriented stability, and application-inspired resource-allocation and scheduling diagnostics. The work is deliberately framed as a reproducible methodological and diagnostic study: the two APP cases are synthetic application-inspired scenarios rather than real-world validated datasets, and this limitation is stated in the abstract, experimental protocol, threats to validity, and conclusion.
+
+The empirical study covers 20 dynamic scenarios, including FDA, dMOP, adapted DF-style, high-frequency/high-severity variants, and two application-inspired synthetic diagnostic cases. It uses 30 independent runs, 10 compared algorithms, non-parametric statistical tests with Holm correction, effect-size analysis, objective-evaluation accounting, direct recovery diagnostics, component-removal ablation, source-quota sensitivity, and a prediction-noise stress test. The results support a bounded claim: PRR-NSGA-II is not presented as a universal state-of-the-art replacement, but as a conservative, interpretable, and selection-safe soft-computing alternative for rapid recovery when prediction reliability varies across environments.
+
+The author declares no competing interests. The research received no external funding. The data, implementation, result summaries, statistical outputs, table-generation scripts, figure-generation materials, and LaTeX rebuild source are provided as supplementary material. The public experiment-code release is archived on Zenodo at https://doi.org/10.5281/zenodo.20327988, and the corresponding GitHub repository is available at https://github.com/ErcanErkalkan/Memory-Assisted-Predictive-Redeployment.
+
+Sincerely,
+Ercan Erkalkan
+Marmara University
+Vocational School of Technical Sciences
+Department of Computer Technologies
+Email: ercan.erkalkan@marmara.edu.tr
